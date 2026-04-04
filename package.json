@@ -1,0 +1,41 @@
+{
+  "name": "create-rezor",
+  "version": "0.0.0",
+  "type": "module",
+  "packageManager": "pnpm@10.33.0",
+  "description": "Rezor 脚手架",
+  "bin": {
+    "create-rezor": "outfile.js"
+  },
+  "files": [
+    "outfile.js",
+    "template"
+  ],
+  "engines": {
+    "node": ">=18.19.1 <19 || >=20.6.1"
+  },
+  "scripts": {
+    "format": "prettier --check \"**/*.{js,ts,json,md}\"",
+    "lint": "eslint .",
+    "type": "tsc --noEmit",
+    "build": "tsc && mv index.js outfile.js"
+  },
+  "repository": "https://github.com/rezorjs/create-rezor.git",
+  "author": "Yang Mingshan <y.mingshan3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^5.0.1",
+    "kolorist": "^1.8.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/ejs": "^3.1.5",
+    "@types/node": "^25.5.0",
+    "@types/prompts": "^2.4.9",
+    "eslint": "^10.1.0",
+    "prettier": "^3.8.1",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.58.0"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "count-button": "/components/count-button"
+  }
+}

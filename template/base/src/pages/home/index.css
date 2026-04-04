@@ -1,0 +1,28 @@
+.home {
+  text-align: center;
+}
+
+.logo {
+  margin: 120px auto 0;
+  width: 400px;
+  height: 400px;
+  font-size: 64px;
+  line-height: 400px;
+  font-weight: bold;
+}
+
+.greeting {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.theme {
+  margin-top: 48px;
+  font-size: 48px;
+}
+
+.count {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+}
