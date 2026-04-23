@@ -55,7 +55,7 @@
     "bigPackageSizeSupport": false
   },
   "compileType": "miniprogram",
-  "libVersion": "development",
+  "libVersion": "latest",
   "appid": "",
   "projectname": "rezor-project",
   "simulatorType": "wechat",
