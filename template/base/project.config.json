@@ -37,7 +37,7 @@
     "compileWorklet": false,
     "localPlugins": false,
     "condition": false,
-    "disableSWC": true,
+    "disableSWC": false,
     "skylineRenderEnable": false,
     "useStaticServer": false,
     "useLanDebug": false,
