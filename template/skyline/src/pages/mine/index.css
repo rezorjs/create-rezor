@@ -1,11 +1,9 @@
 .mine {
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
 .logo {
-  margin-top: 100px;
+  margin-top: 200px;
   width: 400px;
   height: 400px;
   font-size: 64px;
@@ -26,4 +24,9 @@
 
 .count {
   margin-top: 40px;
+}
+
+.hint {
+  margin-top: 20px;
+  font-size: 24px;
 }
