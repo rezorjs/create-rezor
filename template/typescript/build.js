@@ -1,5 +1,5 @@
 /**
- * @version v0.2.1
+ * @version v0.3.0
  * https://github.com/rezorjs/create-rezor
  * 请谨慎修改此文件，改动过多可能会导致你后续升级困难。
  */
