@@ -1,5 +1,6 @@
 import globals from 'globals';
 import eslint from '@eslint/js';
+import rezor from 'eslint-plugin-rezor';
 <%_ if (needsTypeScript) { _%>
 import tseslint from 'typescript-eslint';
 <%_ } _%>
@@ -22,6 +23,10 @@ const config = [
       reportUnusedDisableDirectives: true,
     },
     ...eslint.configs.recommended,
+  },
+  {
+    files: ['**/*.js', '**/*.ts'],
+    ...rezor.configs.recommended,
   },
   {
     files: ['**/*.js'],
