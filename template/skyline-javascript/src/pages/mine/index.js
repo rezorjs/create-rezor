@@ -1,8 +1,8 @@
-import { defineComponent, useContext, useState } from 'rezor';
+import { defineComponent, useGlobalContext, useState } from 'rezor';
 import { ThemeContext } from '@/contexts/theme';
 
 defineComponent((_, context) => {
-  const theme = useContext(ThemeContext);
+  const theme = useGlobalContext(ThemeContext);
   const [count, setCount] = useState(0);
 
   const themeText = theme === 'light' ? '浅色' : '深色';

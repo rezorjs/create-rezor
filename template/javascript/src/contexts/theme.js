@@ -1,3 +1,3 @@
-import { createContext } from 'rezor';
+import { createGlobalContext } from 'rezor';
 
-export const ThemeContext = createContext('light');
+export const ThemeContext = createGlobalContext('light');
